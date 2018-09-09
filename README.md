@@ -3,6 +3,7 @@
 **Note:** For detailed read on implementation and concepts please check my blog: https://bvbasavaraju.blogspot.com/
 
 **Status    -   Tasks**
+
 Completed   -   Creating Boot Block
 
 -------------------------------------------------------------------------------------------------------------------------
