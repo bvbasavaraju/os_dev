@@ -17,7 +17,6 @@ To start with, I am planning to write using assembly, C and C++! As I am familia
 
 I will update here as and when something is Ready and new module are in development!
 
-#-----------------------------------
 #      Status    |      Module
 
     Completed    - Creating Boot Block
