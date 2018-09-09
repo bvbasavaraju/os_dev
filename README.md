@@ -14,4 +14,9 @@ If you find any bug, please do report!
 
 To start with, I am planning to write using assembly, C and C++! As I am familiar with these, it only makes sense to use these languages. and C is the most preferred language for writing OS! I will use C only where it is necessary, otherwise I will try to keep it C++.
 
-I will update here as and when something is Ready!
+I will update here as and when something is Ready and new module are in development!
+
+-----------------------------------
+      Status    |      Module
+-----------------------------------
+  InProgress    - Creating Boot Block
