@@ -6,7 +6,7 @@
 
 * Completed   -   Creating Boot Block
 * Completed   -   Creating Boot Secotr with HELLO msg printed on screen (using 0x10 ISR - VEDIO Service interrupt in Teletype mode)
-* InProgress  -   Blog the BIOS Interrupt call and how to use ISR - 0x10 (VIDEO service interrupt) to print anything on screen
+* Completed   -   Blog the BIOS Interrupt call and how to use ISR - 0x10 (VIDEO service interrupt) to print anything on screen
 
 -------------------------------------------------------------------------------------------------------------------------
 
