@@ -7,6 +7,9 @@
 * Completed   -   Creating Boot Block
 * Completed   -   Creating Boot Secotr with HELLO msg printed on screen (using 0x10 ISR - VEDIO Service interrupt in Teletype mode)
 * Completed   -   Blog the BIOS Interrupt call and how to use ISR - 0x10 (VIDEO service interrupt) to print anything on screen
+* Completed   -   Using Lables in assembly code and loadeding the data using memory offset!
+* InProgress  -   Blog on Why 0x7C00 (32KB - 1KB) and Memory Layout. What is assembly keyword "org" means and how to use?
+* ToStart     -   Using Stack in assembly and boot sector
 
 -------------------------------------------------------------------------------------------------------------------------
 
