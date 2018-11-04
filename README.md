@@ -4,12 +4,15 @@
 
 **Status    -   Tasks**
 
-* Completed   -   Creating Boot Block
-* Completed   -   Creating Boot Secotr with HELLO msg printed on screen (using 0x10 ISR - VEDIO Service interrupt in Teletype mode)
-* Completed   -   Blog the BIOS Interrupt call and how to use ISR - 0x10 (VIDEO service interrupt) to print anything on screen
-* Completed   -   Using Lables in assembly code and loadeding the data using memory offset!
-* InProgress  -   Blog on Why 0x7C00 (32KB - 1KB) and Memory Layout. What is assembly keyword "org" means and how to use?
-* ToStart     -   Using Stack in assembly and boot sector
+* Completed         -   Creating Boot Block
+* Completed         -   Creating Boot Secotr with HELLO msg printed on screen (using 0x10 ISR - VEDIO Service interrupt in Teletype mode)
+* Completed (Blog)  -   The BIOS Interrupt call and how to use ISR - 0x10 (VIDEO service interrupt) to print anything on screen
+* Completed         -   Using Lables in assembly code and loadeding the data using memory offset!
+* Completed (Blog)  -   Why 0x7C00 (32KB - 1KB) and Memory Layout. What is assembly keyword "org" means and how to use?
+* Completed         -   Using Stack, Function Calls, *.asm file inclution in assembly and boot sector
+* ToStart   (Blog)  -   Stack, Function Calls and *.asm file inclusion(using org, push, pop, pusha, popa, call, ret, %include, cmp, jump instructions)
+* InProgress        -   Output in Hex format
+* InProgress        -   Reading Disk
 
 -------------------------------------------------------------------------------------------------------------------------
 
