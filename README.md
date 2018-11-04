@@ -9,9 +9,9 @@
 * Completed (Blog)  -   The BIOS Interrupt call and how to use ISR - 0x10 (VIDEO service interrupt) to print anything on screen
 * Completed         -   Using Lables in assembly code and loadeding the data using memory offset!
 * Completed (Blog)  -   Why 0x7C00 (32KB - 1KB) and Memory Layout. What is assembly keyword "org" means and how to use?
-* Completed         -   Using Stack, Function Calls, *.asm file inclution in assembly and boot sector
+* Completed         -   Print string using Stack, Function Calls, *.asm file inclution in assembly and boot sector
 * ToStart   (Blog)  -   Stack, Function Calls and *.asm file inclusion(using org, push, pop, pusha, popa, call, ret, %include, cmp, jump instructions)
-* InProgress        -   Output in Hex format
+* Completed         -   Output in Hex format
 * InProgress        -   Reading Disk
 
 -------------------------------------------------------------------------------------------------------------------------
