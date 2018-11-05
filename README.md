@@ -11,8 +11,11 @@
 * Completed (Blog)  -   Why 0x7C00 (32KB - 1KB) and Memory Layout. What is assembly keyword "org" means and how to use?
 * Completed         -   Print string using Stack, Function Calls, *.asm file inclution in assembly and boot sector
 * ToStart   (Blog)  -   Stack, Function Calls and *.asm file inclusion(using org, push, pop, pusha, popa, call, ret, %include, cmp, jump instructions)
-* Completed         -   Output in Hex format
-* InProgress        -   Reading Disk
+* Completed         -   Print in Hex format
+* Completed	        -   Segments
+* Completed	        -   Reading Disk
+* ToStart   (Blog)  -   Segments (cs, ds, ss, es), Disk Read, What is CYLINDER, HEAD, SECTOR, DRIVE, PLATTER?
+* ToStart           -   32-bit Protcted Mode
 
 -------------------------------------------------------------------------------------------------------------------------
 
