@@ -16,23 +16,23 @@
 VIDEO_MEMORY equ 0xb8000
 CHARACTER_PRINT_ATTRIBUTE equ 0x0F  ; White will be color of the text on a Black background
 
-print_data:
+print_data_pm:
 
   pusha                  ; back up all registers data
   
-  mov edx, VIDEO_MEMORY  ;	data Rgister is set to start of the video memory
+  mov edx, VIDEO_MEMORY  ; data Rgister is set to start of the video memory
   
-print_in_loop:
-  mov al, [ebx]
-  mov ah, CHARACTER_PRINT_ATTRIBUTE
+print_in_loop_pm:
+  mov al, [ebx]                     ; Data to be printed
+  mov ah, CHARACTER_PRINT_ATTRIBUTE ; ATTRIBUTE of data to be printed
   
-  cmp al, 0
-  je return_to_caller
+  cmp al, 0                         ; check if it is the end of data
+  je return_to_caller             
   
-  mov [edx], ax
-  add ebx, 1
-  add edx, 2
-  jmp print_in_loop
+  mov [edx], ax                     ; Load the data to the Video memory
+  add ebx, 1                        ; Move to next byte in Data
+  add edx, 2                        ; Move to next address in Video Memory
+  jmp print_in_loop_pm              ; loop untill end of end
   
 return_to_caller:
 
@@ -41,10 +41,12 @@ return_to_caller:
 
 ;
 ; Function to print new line
-; Here first we need to find the row number and then move the cusror by 1 row.
+; Here first we need to find the row number and then move the cusror by 1 row. 
+; using formula 0xb8000 + 2 * (row * 80 + col) 
+; For New Line => row = current_row + 1, col => 0
 ;
 
-;print_new_line:
+;print_new_line_pm:
   
 ;  pusha
   

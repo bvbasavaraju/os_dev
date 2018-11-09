@@ -12,14 +12,15 @@
 * Completed         -   Print string using Stack, Function Calls, *.asm file inclution in assembly and boot sector
 * ToStart   (Blog)  -   Stack, Function Calls and *.asm file inclusion(using org, push, pop, pusha, popa, call, ret, %include, cmp, jump instructions)
 * Completed         -   Print in Hex format
-* Completed	        -   Segments
-* Completed	        -   Reading Disk
+* Completed         -   Segments
+* Completed         -   Reading Disk
 * ToStart   (Blog)  -   Segments (cs, ds, ss, es), Disk Read, What is CYLINDER, HEAD, SECTOR, DRIVE, PLATTER?
 * ToStart   (Blog)  -   32-bit Protcted Mode
 * Completed         -   Print Data using Video Memory - Yet to Test
 * ToStart   (Blog)  -   GDT (Global Descriptor Table)
 * Completed         -   GDT Descriptor Default Implementation for 32 bit systems - Yet to Test
-* ToStart           -   Switching to Protected mode using GDT Descriptor
+* Completed         -   Switching to Protected mode using GDT Descriptor
+* ToStart           -   Writing, Building and Loading Kernel
 
 -------------------------------------------------------------------------------------------------------------------------
 
