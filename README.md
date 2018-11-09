@@ -2,7 +2,7 @@
 
 **Note:** For detailed read on implementation and concepts please check my blog: https://bvbasavaraju.blogspot.com/
 
-**Status    -   Tasks**
+**Status            -   Tasks**
 
 * Completed         -   Creating Boot Block
 * Completed         -   Creating Boot Secotr with HELLO msg printed on screen (using 0x10 ISR - VEDIO Service interrupt in Teletype mode)
@@ -15,7 +15,11 @@
 * Completed	        -   Segments
 * Completed	        -   Reading Disk
 * ToStart   (Blog)  -   Segments (cs, ds, ss, es), Disk Read, What is CYLINDER, HEAD, SECTOR, DRIVE, PLATTER?
-* ToStart           -   32-bit Protcted Mode
+* ToStart   (Blog)  -   32-bit Protcted Mode
+* Completed         -   Print Data using Video Memory - Yet to Test
+* ToStart   (Blog)  -   GDT (Global Descriptor Table)
+* Completed         -   GDT Descriptor Default Implementation for 32 bit systems - Yet to Test
+* ToStart           -   Switching to Protected mode using GDT Descriptor
 
 -------------------------------------------------------------------------------------------------------------------------
 
